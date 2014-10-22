@@ -1,0 +1,8 @@
+# Enter repo, remove .DS_Store files, and ignore them globally with git.
+cd ${REPO_NAME}
+find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch -f
+echo ".DS_Store" > .gitignore
+echo "*~" > .gitignore
+git config --global core.excludesfile .gitignore
+# --
+# 
