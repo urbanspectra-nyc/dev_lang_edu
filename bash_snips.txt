@@ -10,4 +10,7 @@ git config --global core.excludesfile .gitignore
 :g/^/m0
 :w %.inv
 # --
-# 
+#  Tested script at http://javascript.cs.lmu.edu/scratch/
+#  Wonder how that runs across browsers.
+# --
+
